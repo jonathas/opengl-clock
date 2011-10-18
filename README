@@ -1,1 +1,19 @@
 A clock developed with C++ and OpenGL
+
+In order to compile it, you need to check if glut.h is installed in your system.
+
+In Fedora, for example, you can install it with this command:
+
+# yum install freeglut freeglut-devel
+
+Then, 
+
+$ chmod +x compile.sh
+
+and run it:
+
+./compile.sh
+
+If there are no error messages, just run the compiled app:
+
+./clock
